@@ -1,1 +1,18 @@
-Pindah file screen 
+@charset "utf-8";
+
+html, body {
+	padding-top:30px;
+	margin-bottom:25px;
+	padding-bottom:10px; 
+
+}
+
+#main_container {
+	width:100%;
+	background-color:#ffffff;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height:100%;	
+	position:absolute;
+	margin-bottom:10px; 
+}
