@@ -31,7 +31,7 @@ include('koneksi.php');
     	<li><a href="hal-login.php">Login Admin</a></li>
     	<li><a href="product.php">Daftar Lapangan</a></li>
     	<li><a href="hubungi.php">Pelatihan dan Kompetisi</a></li>
-		<li><a href="Guestbook/home.php">Guestbook</a></li>
+		<li><a href="Guestbook/home.php">Pemesanan</a></li>
 		<li><a href="main_forum.php">Forum</a></li>
 		<li><a href="about.php">Tentang Kami</a></li>
 
