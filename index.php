@@ -64,7 +64,7 @@ echo"<div id='sub-barang'><div class='jdl-brg'>$r[nama_barang]</div><img src='ba
 <div id="kanan">
 
 <?php
-if(empty($_SESSION[namamember])){
+if(empty($_SESSION['namamember'])){
 ?>
 <div id="judul">Member Log In</div>
 <div id="widget">
