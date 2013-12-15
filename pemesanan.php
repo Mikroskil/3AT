@@ -23,10 +23,10 @@ include('koneksi.php');
     	<li><a href="index.php">Beranda</a></li>
     	<li><a href="hal-login.php">Login Admin</a></li>
     	<li><a href="daftar_lap.php">Daftar Lapangan</a></li>
-    	<li><a href="hubungi.php">Pelatihan dan Kompetisi</a></li>
-		<li><a href="pemesanan.php">Pemesanan</a></li>
-		<li><a href="main_forum.php">Forum</a></li>
-		<li><a href="about.php">Tentang Kami</a></li>
+    	<li><a href="latKompetisi.php">Pelatihan dan Kompetisi</a></li>
+		<li><a href="pemesanan.php">Pesan Lapangan</a></li>
+		<li><a href="main_forum.php">Masuk Ke Forum</a></li>
+		<li><a href="about.php">Tentang Kami</a></li>		
 	</ul>
 </div>
 <div id="head">
@@ -92,6 +92,7 @@ for($i = 0;$i<=59;$i++){
 }
 ?>
 </select> *</td></tr>
+<tr><td width="100">Member</td><td width="20">:</td><td><input type="radio" class="input" size="3" name="Member" value="anggota" checked />Member <input type="radio" class="input" size="3" name="Member" value="bukanAnggota"/> Non Member *</td></tr>
 <tr><td width="100" valign="top">Pesan</td><td width="20" valign="top">:</td><td><textarea name="pesan" cols="40" rows="8" class="input"></textarea></td></tr>
 <tr><td width="100"></td><td width="20"></td><td><input type="submit" class="submitButton" value="Kirim Pesan"/> <input type="reset" class="submitButton" value="Hapus"/></td></tr>
 </table>
