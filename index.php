@@ -12,7 +12,7 @@ session_start();
 <script type="text/javascript" src="js/slideshow.js"></script>
 <link rel="shortcut icon" href="images/icon.png" />
 <script type="text/javascript">
-/*hs.graphicsDir = 'http://localhost/distro/images/';
+/*hs.graphicsDir = 'http://localhost/project/images/';
 hs.outlineType = 'rounded-white';
 hs.wrapperClassName = 'draggable-header';*/
 </script>
@@ -49,17 +49,8 @@ include('koneksi.php');
 Website ini memberikan pemesanan lapangan secara online sehingga memudahkan para pengunjung mengatur jadwal mereka untuk menyewa dan bermain lapangan tersebut.<br /><br />
 Website ini juga memberikan informasi tentang jadwal pelatihan dan kompetisi serta sistem transaksi pada suatu lapangan futsal. <br /><br />
 <div id="judul">Rekomendasi Dari Kami</div>
-<?php
-/*$q=mysql_query("select * from tbl_barang order by id_barang DESC LIMIT 3");
-while($r=mysql_fetch_array($q))
-{
-echo"<div id='sub-barang'><div class='jdl-brg'>$r[nama_barang]</div><img src='barang/$r[gambar]' width='110' class='gambar'><div id='harga'><i>Harga Rp.$r[harga]</i>
-<a href='pesan.php?id_barang=$r[id_barang]'><div  class='submitButton3'>Buy This Item</div></a><a href='detail.php?id_barang=$r[id_barang]' onclick=\"return hs.htmlExpand(this, { objectType: 'iframe' } )\"><div  class='submitButton3'>Review Item</div></a>
-</div></div>";
-}*/
-?>
-<br /><br /><p align="center">Ingin melihat semua koleksi produk kami...??? Silahkan cek ke : </p>
-<a href="product.php"><div class="submitButton2">Produk Kami</div></a>
+<br /><br /><p align="center">Ingin melihat semua daftar lapangan ...??? Silahkan cek ke : </p>
+<a href="daftar_lap.php"><div class="submitButton2">Daftar Lapangan</div></a>
 </div>
 <div id="kanan">
 
