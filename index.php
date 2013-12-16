@@ -29,12 +29,11 @@ include('koneksi.php');
 	<ul>
     	<li><a href="index.php">Beranda</a></li>
     	<li><a href="hal-login.php">Login Admin</a></li>
-    	<li><a href="product.php">Daftar Lapangan</a></li>
-    	<li><a href="hubungi.php">Pelatihan dan Kompetisi</a></li>
-		<li><a href="Guestbook/home.php">Pemesanan</a></li>
-		<li><a href="main_forum.php">Forum</a></li>
-		<li><a href="about.php">Tentang Kami</a></li>
-
+    	<li><a href="daftar_lap.php">Daftar Lapangan</a></li>
+    	<li><a href="latKompetisi.php">Pelatihan dan Kompetisi</a></li>
+		<li><a href="pemesanan.php">Pesan Lapangan</a></li>
+		<li><a href="main_forum.php">Masuk Ke Forum</a></li>
+		<li><a href="about.php">Tentang Kami</a></li>	
 	</ul>
 </div>
 <div id="head">
