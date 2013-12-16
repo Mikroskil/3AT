@@ -44,6 +44,7 @@ Atau kamu pingin menanyakan sesuatu terkait kemungkinan kerjasama dengan kami?<b
 Jangan ragu-ragu, silakan hubungi kami melalui form kontak yang ada di bawah ini, dan kami akan merespon secepatnya.<br /><br />
 <form method="post" action="kirim-pesan.php">
 <table>
+<tr><td width="100">No Pesanan</td><td width="20">:</td><td><input type="text" class="input" size="50" name="noPesan" /> *</td></tr>
 <tr><td width="100">Nama</td><td width="20">:</td><td><input type="text" class="input" size="50" name="nama" /> *</td></tr>
 <tr><td width="100">No Lapangan</td><td width="20">:</td><td><input type="text" class="input" size="50" name="nolap" /> *</td></tr>
 <tr><td width="100">Email</td><td width="20">:</td><td><input type="text" class="input" size="50" name="email" /> *</td></tr>
